@@ -73,16 +73,4 @@ export default class BitBucket extends Client {
       }
     };
   }
-
-  static getHttpsLink(links) {
-    return _.find(links, { name: 'http' }).href;
-  }
-
-  static generateProjectKey(name) {
-    return name.split('-').map(item => item.charAt(0).toUpperCase()).join('');
-  }
-
-  static generateRepoSlug(name) {
-    return name.split(' ').map(item => item.toLowerCase()).join('-');
-  }
 }
