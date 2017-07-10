@@ -1,5 +1,5 @@
 {
-  "name": "catfish",
+  "name": "glient",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -21,12 +21,9 @@
     "eslint-import-resolver-node": "^0.3.0",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0",
-    "lodash": "^4.17.4"
+    "eslint-plugin-react": "^6.8.0"
   },
   "dependencies": {
-    "colour": "^0.7.1",
-    "node-env-file": "^0.1.8",
     "unirest": "^0.5.1"
   }
 }
